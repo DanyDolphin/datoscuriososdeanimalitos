@@ -40,7 +40,11 @@ const curiosos = [
     '*El corazón del colibrí al igual que el del canario, late mil veces por minuto.*',
     '*El mosquito tiene 47 dientes, el tiburón ballena tiene más de 4,500 y el pez gato tiene 9,280.*',
     '*La jirafa duerme tan sólo 7 minutos por día y lo hace de pie.*',
-    '*Una vaca emite a la atmósfera 182,500 litros de metano al año (una de las causas del agujero de la Capa de Ozono).*',
+    '*Una vaca emite a la atmósfera 182,500 litros de metano al año (una de las causas del agujero de la Capa de Ozono).*',,
+    '*Entre los mamíferos, el chimpancé tiene record de rapidez en el acto sexual, lo consuma en tan sólo 3 segundos.*',
+    '*El cuello de la jirafa tiene el mismo número de huesos que el nuestro.*',
+    '*El único animal visible desde el espacio son los corales.*',
+    '*La jirafa no emite ningún sonido.*'
 ]
 
 function getRandomHint() {
