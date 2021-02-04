@@ -15,23 +15,7 @@ process.on('unhandledRejection', err => {
 });
 
 app.get('/', async function(req, res) {
-    await axios.post('http://localhost:4000/webhook', {
-        "instanceId": "223756",
-        "messages": [
-          {
-            "id": "false_17472822486@c.us_DF38E6A25B42CC8CCE57EC40F",
-            "body": "dame un dato curioso por favor!",
-            "type": "chat",
-            "senderName": "Ilya",
-            "fromMe": true,
-            "author": "17472822486@c.us",
-            "time": 1504208593,
-            "chatId": "17472822486@c.us",
-            "messageNumber": 100
-          }
-        ]
-      })
-      res.send('huevos')
+    res.send('huevos')
 })
 
 async function apiChatApi(method, params){
